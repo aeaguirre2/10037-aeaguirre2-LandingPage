@@ -1,11 +1,11 @@
 gsap.registerPlugin(ScrollTrigger);
 gsap.to(".container1", {
   x:-800,
-  duration: 4,
+  duration: 0,
 })
 gsap.to(".container2", {
   x:800,
-  duration: 4,
+  duration: 0,
 })
 gsap.fromTo("nav", {
   opacity: 0,
